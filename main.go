@@ -14,7 +14,7 @@ type food struct {
 }
 
 func init() {
-	tpl = template.Must(template.ParseGlob("templates/*"))
+	tpl = template.Must(template.ParseGlob("*.gohtml"))
 }
 
 func main() {
